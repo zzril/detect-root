@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">DetectRoot</string>
+    <string name="not_rooted">No root detected.</string>
+    <string name="rooted">Possibly rooted.</string>
+</resources>

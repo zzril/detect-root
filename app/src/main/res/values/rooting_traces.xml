@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="packages">
+        <item>com.noshufou.android.su</item>
+        <item>com.noshufou.android.su.elite</item>
+        <item>eu.chainfire.supersu</item>
+        <item>com.koushikdutta.superuser</item>
+        <item>com.thirdparty.superuser</item>
+        <item>com.yellowes.su</item>
+        <item>com.koushikdutta.rommanager</item>
+        <item>com.koushikdutta.rommanager.license</item>
+        <item>com.dimonvideo.luckypatcher</item>
+        <item>com.chelpus.lackypatch</item>
+        <item>com.ramdroid.appquarantine</item>
+        <item>com.ramdroid.appquarantinepro</item>
+        <item>com.devadvance.rootcloak</item>
+        <item>com.devadvance.rootcloakplus</item>
+        <item>de.robv.android.xposed.installer</item>
+        <item>com.saurik.substrate</item>
+        <item>com.zachspong.temprootremovejb</item>
+        <item>com.amphoras.hidemyroot</item>
+        <item>com.amphoras.hidemyrootadfree</item>
+        <item>com.formyhm.hiderootPremium</item>
+        <item>com.formyhm.hideroot</item>
+        <item>me.phh.superuser</item>
+        <item>eu.chainfire.supersu.pro</item>
+        <item>com.kingouser.com</item>
+        <item>com.topjohnwu.magisk</item>
+    </string-array>
+    <string-array name="su_paths">
+        <item>/sbin/su</item>
+        <item>/system/bin/.ext/.su</item>
+        <item>/system/bin/.ext/su</item>
+        <item>/system/bin/su</item>
+        <item>/system/sbin/su</item>
+        <item>/system/su</item>
+        <item>/system/xbin/mu</item>
+        <item>/system/xbin/su</item>
+        <item>/system/xbin/sudo</item>
+    </string-array>
+    <string-array name="app_data_prefixes">
+        <item>/data/app/</item>
+        <item>/data/dalvik-cache/data@app@</item>
+        <item>/data/data/</item>
+        <item>/system/app/</item>
+    </string-array>
+    <string name="build_tags">release-keys</string>
+    <string-array name="system_properties">
+        <!--
+        <item>ro.build.selinux:1</item>
+        -->
+        <item>ro.build.tags:release-keys</item>
+        <item>ro.build.type:user</item>
+        <item>ro.debuggable:0</item>
+        <item>ro.secure:1</item>
+        <item>service.adb.root:0</item>
+        <item>sys.oem_unlock_allowed:0</item>
+    </string-array>
+    <string-array name="non_readable_paths">
+        <item>/data</item>
+    </string-array>
+    <string-array name="non_writable_paths">
+        <item>/</item>
+        <item>/data</item>
+        <item>/dev</item>
+        <item>/etc</item>
+        <item>/proc</item>
+        <item>/sbin</item>
+        <item>/sys</item>
+        <item>/system</item>
+        <item>/system/bin</item>
+        <item>/system/sbin</item>
+        <item>/system/xbin</item>
+        <item>/vendor/bin</item>
+    </string-array>
+    <string-array name="process_names">
+        <item>daemonsu</item>
+        <item>frida-server</item>
+        <item>fridaserver</item>
+        <item>magiskd</item>
+        <item>SuperSU</item>
+    </string-array>
+</resources>
