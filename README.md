@@ -27,7 +27,7 @@ To install the app on a connected device, run:
 ```sh
 ./gradlew installDebug
 ```
-Make sure `JAVA_HOME` points to the installation path of a Java 17 SDK and `ANDROID_HOME` points to the Android SDK installation path.
+Make sure `$JAVA_HOME` points to the installation path of a Java 17 SDK and `$ANDROID_HOME` points to the Android SDK installation path.
 
 If you're using IntelliJ, the Gradle plugin should do its work alright if you download the Gradle wrapper in the way specified above and *then* use the default run configuration.
 
