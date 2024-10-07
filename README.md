@@ -3,7 +3,7 @@ DetectRoot
 
 A simple Android app that searches for traces of the device being rooted.
 
-This came out of a university project.
+This came out of a university project. The goal was to more or less combine all checks found on existing root checkers, aside from those using APIs like SafetyNet.
 
 ---
 
