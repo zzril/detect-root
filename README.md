@@ -8,11 +8,9 @@ This came out of a university project.
 Build
 -----
 
-### Downloading the gradle wrapper
+This project uses Gradle, but does not provide the Gradle wrapper binaries because checking in binaries into version control is a very bad practice.
 
-If you care about reproducible builds, you may want to use not only the same gradle version, but also the exact same gradle wrapper version that is used for downloading the actual gradle. It is recommended to simply check this in into the repository, but then it is also recommended to not check in binary files.
-
-The wrapper originally used for this project is the one that comes with gradle version 7.0.2. You can download that using the following commands:  
+If you have Gradle installed, you can probably use that directly. Otherwise, you can download the wrapper in the following way:  
 ```sh
 cd gradle/wrapper/
 wget 'https://services.gradle.org/distributions/gradle-7.0.2-src.zip'
@@ -23,4 +21,13 @@ mv gradle-7.0.2/gradlew.bat ../../
 rm -r gradle-7.0.2*
 cd ../../
 ```
+(Newer versions will likely also do, but this is how I've tested it.)
+
+To install the app on a connected device, run:  
+```sh
+./gradlew installDebug
+```
+Make sure `JAVA_HOME` points to the installation path of a Java 17 SDK and `ANDROID_HOME` points to the Android SDK installation path.
+
+If you're using IntelliJ, the Gradle plugin should do its work alright if you download the Gradle wrapper in the way specified above and *then* use the default run configuration.
 
