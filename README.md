@@ -5,6 +5,8 @@ A simple Android app that searches for traces of the device being rooted.
 
 This came out of a university project.
 
+---
+
 Build
 -----
 
@@ -31,3 +33,9 @@ Make sure `$JAVA_HOME` points to the installation path of a Java 17 SDK and `$AN
 
 If you're using IntelliJ, the Gradle plugin should do its work alright if you download the Gradle wrapper in the way specified above and *then* use the default run configuration.
 
+---
+
+Example screenshot
+------------------
+
+![emulator-detected](https://github.com/user-attachments/assets/3ae92cfa-979c-4c47-900c-79aa11147c26)
