@@ -1,3 +1,13 @@
+# Exclude any generated JAR archives
+# NOTE: This means we have to download the gradle-wrapper.jar manually
+*.jar
+
+# Exclude gradle wrapper altogether
+gradlew
+gradlew.bat
+
+# -
+
 # Gradle files
 .gradle/
 build/
